@@ -41,9 +41,31 @@ function greet () {
     greeting.textContent = `Hello ${namePage}! It is very nice to meet you!`;
 }
 
+button.addEventListener("click", greet);
 
 const myString = '123';
 const myNum = Number(myString);
 console.log(myString);
 console.log(myNum);
 console.log(typeof myNum);
+
+const myNum2 = 123;
+const myString2 = String(myNum2);
+console.log(myNum2);
+console.log(myString2);
+console.log(typeof myString2);
+
+alert(1 > 2);
+alert(2 > 1);
+
+const time = new Date().getHours();
+let greeting;
+if (time < 10) {
+    greeting = "Good Morning";
+} else if ( time < 20) {
+    greeting = "Good Day";
+} else {
+    greeting = "Good Evening"
+} 
+
+document.getElementById("demo").innerHTML = greeting;
