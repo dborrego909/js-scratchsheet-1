@@ -28,3 +28,17 @@ let actual = MAX - 13;
 let percentage = actual / MAX;
 
 console.log(percentage);
+
+const string = "The revolution will not be televised";
+
+console.log(string);
+
+const button = document.querySelector("button");
+
+function greet () {
+    const namePage = prompt("Hello what is your name?");
+    const greeting = document.querySelector("#hello");
+    greeting.textContent = `Hello ${namePage}! It is very nice to meet you!`;
+}
+
+button.addEventListener("click", greet);
