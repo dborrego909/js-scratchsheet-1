@@ -59,13 +59,14 @@ alert(1 > 2);
 alert(2 > 1);
 
 const time = new Date().getHours();
+
 let greeting;
 if (time < 10) {
     greeting = "Good Morning";
-} else if ( time < 20) {
+} else if (time < 20) {
     greeting = "Good Day";
 } else {
-    greeting = "Good Evening"
-} 
+    greeting = "Good Evening";
+}
 
 document.getElementById("demo").innerHTML = greeting;
