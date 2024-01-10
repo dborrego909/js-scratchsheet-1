@@ -41,4 +41,9 @@ function greet () {
     greeting.textContent = `Hello ${namePage}! It is very nice to meet you!`;
 }
 
-button.addEventListener("click", greet);
+
+const myString = '123';
+const myNum = Number(myString);
+console.log(myString);
+console.log(myNum);
+console.log(typeof myNum);
