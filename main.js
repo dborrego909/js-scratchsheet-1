@@ -69,7 +69,7 @@ if (time < 10) {
     greeting = "Good Evening";
 }
 
-document.getElementById("demo2").innerHTML = greeting;
+document.getElementById("demo").innerHTML = greeting;
 
 const names = ['Chris', 'Li Kang', 'Anne', 'Francesca', 'Mustafa', 'Tina', 'Bert', 'Jada']
 const para = document.createElement('p');
@@ -83,7 +83,7 @@ console.log(randomName)
 
 // Don't edit the code below here!
 
-section.innerHTML = 'demo2';
+document.getElementById("demo2").innerHTML = ` The winner of the super mega death ray is ${randomName}!`;
 
-section.appendChild(para);
+// section.appendChild(para);
     
