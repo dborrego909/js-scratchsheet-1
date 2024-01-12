@@ -55,8 +55,8 @@ console.log(myNum2);
 console.log(myString2);
 console.log(typeof myString2);
 
-alert(1 > 2);
-alert(2 > 1);
+// alert(1 > 2);
+// alert(2 > 1);
 
 const time = new Date().getHours();
 
@@ -74,14 +74,16 @@ document.getElementById("demo2").innerHTML = greeting;
 const names = ['Chris', 'Li Kang', 'Anne', 'Francesca', 'Mustafa', 'Tina', 'Bert', 'Jada']
 const para = document.createElement('p');
 
-function chooseName () {
-    const randomName = Math.floor(Math.random() * names.length);
-}
+
+const randomName = names[Math.floor(Math.random() * names.length)];
+
+
+console.log(randomName)
 // Add your code here
 
 // Don't edit the code below here!
 
-section.innerHTML = ' ';
+section.innerHTML = 'demo2';
 
 section.appendChild(para);
     
