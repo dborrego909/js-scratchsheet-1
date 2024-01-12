@@ -69,4 +69,19 @@ if (time < 10) {
     greeting = "Good Evening";
 }
 
-document.getElementById("demo").innerHTML = greeting;
+document.getElementById("demo2").innerHTML = greeting;
+
+const names = ['Chris', 'Li Kang', 'Anne', 'Francesca', 'Mustafa', 'Tina', 'Bert', 'Jada']
+const para = document.createElement('p');
+
+function chooseName () {
+    const randomName = Math.floor(Math.random() * names.length);
+}
+// Add your code here
+
+// Don't edit the code below here!
+
+section.innerHTML = ' ';
+
+section.appendChild(para);
+    
