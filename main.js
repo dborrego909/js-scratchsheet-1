@@ -126,4 +126,8 @@ const hello = "Lets get it started"
 const chocoArray = ["I", "love", "chocolate", "frogs"];
 const madeAString = chocoArray.join(" ");
 document.getElementById("demo5").innerHTML = madeAString;
-console.log(madAString);
+console.log(madeAString);
+
+const metal = ["gold", "silver", "nickel"]
+const joinMetal = metal.join(", ");
+console.log(joinMetal);
