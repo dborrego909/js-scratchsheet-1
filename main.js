@@ -43,15 +43,14 @@ console.log(string);
 
 // button1.addEventListener("click", greet);
 
-const button = document.querySelector("button");
 
-function greet () {
-    const namePage = prompt("Hello, what is your name?");
-    const greeting = document.querySelector("#hello");
-    greeting.textContent = `Hello ${namePage} it is so nice to meet you!`
-}
+// const button = document.querySelector("#button1");
 
-button1.addEventListener("click", greet);
+// create function that activates when pressing the press me button
+// prompt user to enter their name with message in prompt
+//
+
+
 
 const myString = '123';
 const myNum = Number(myString);
