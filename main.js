@@ -131,3 +131,7 @@ console.log(madeAString);
 const metal = ["gold", "silver", "nickel"]
 const joinMetal = metal.join(", ");
 console.log(joinMetal);
+
+const originals = [1, 2, 3];
+const doubled = originals.map(item => item * 2);
+console.log(doubled);
