@@ -135,3 +135,10 @@ console.log(joinMetal);
 const originals = [1, 2, 3];
 const doubled = originals.map(item => item * 2);
 console.log(doubled);
+
+const textBox = document.querySelector("#textbox");
+const output = document.querySelector("#output");
+
+textBox.addEventListener("keydown", (event) => {
+    output.textContent = `You pressed "${event.key}".`;
+});
