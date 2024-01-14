@@ -33,15 +33,25 @@ const string = "The revolution will not be televised";
 
 console.log(string);
 
+// const button = document.querySelector("button");
+
+// function greet () {
+//     const namePage = prompt("Hello what is your name?");
+//     const greeting = document.querySelector("#hello");
+//     greeting.textContent = `Hello ${namePage}! It is very nice to meet you!`;
+// }
+
+// button1.addEventListener("click", greet);
+
 const button = document.querySelector("button");
 
 function greet () {
-    const namePage = prompt("Hello what is your name?");
+    const namePage = prompt("Hello, what is your name?");
     const greeting = document.querySelector("#hello");
-    greeting.textContent = `Hello ${namePage}! It is very nice to meet you!`;
+    greeting.textContent = `Hello ${namePage} it is so nice to meet you!`
 }
 
-button.addEventListener("click", greet);
+button1.addEventListener("click", greet);
 
 const myString = '123';
 const myNum = Number(myString);
@@ -58,22 +68,34 @@ console.log(typeof myString2);
 // alert(1 > 2);
 // alert(2 > 1);
 
+// const time = new Date().getHours();
+
+// let greeting;
+// if (time < 10) {
+//     greeting = "Good Morning";
+// } else if (time < 20) {
+//     greeting = "Good Day";
+// } else {
+//     greeting = "Good Evening";
+// }
+
+// document.getElementById("demo").innerHTML = greeting;
+
+const names = ['Chris', 'Li Kang', 'Anne', 'Francesca', 'Mustafa', 'Tina', 'Bert', 'Jada']
+const para = document.createElement('p');
+
 const time = new Date().getHours();
 
 let greeting;
 if (time < 10) {
     greeting = "Good Morning";
 } else if (time < 20) {
-    greeting = "Good Day";
+    greeting = "Good Afternoon";
 } else {
     greeting = "Good Evening";
 }
 
 document.getElementById("demo").innerHTML = greeting;
-
-const names = ['Chris', 'Li Kang', 'Anne', 'Francesca', 'Mustafa', 'Tina', 'Bert', 'Jada']
-const para = document.createElement('p');
-
 
 const randomName = names[Math.floor(Math.random() * names.length)];
 
@@ -97,3 +119,12 @@ cars = ["Volvo", "BMW", "Pontiac", "Toyota"];
 const randomCar = cars[Math.floor(Math.random() * cars.length)];
 
 document.getElementById("demo4").innerHTML = `${randomCar} is the worst car ever made.`
+
+const hello = "Lets get it started"
+
+// button.document.querySelector("button2")
+
+const chocoArray = ["I", "love", "chocolate", "frogs"];
+const madeAString = chocoArray.join(" ");
+document.getElementById("demo5").innerHTML = madeAString;
+console.log(madAString);
