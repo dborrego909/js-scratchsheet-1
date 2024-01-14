@@ -87,3 +87,13 @@ document.getElementById("demo2").innerHTML = ` The winner of the super mega deat
 
 // section.appendChild(para);
     
+const myText = "I am a string";
+const newString = myText.replace("string", "sausage");
+
+document.getElementById("demo3").innerHTML = newString;
+
+cars = ["Volvo", "BMW", "Pontiac", "Toyota"];
+
+const randomCar = cars[Math.floor(Math.random() * cars.length)];
+
+document.getElementById("demo4").innerHTML = `${randomCar} is the worst car ever made.`
