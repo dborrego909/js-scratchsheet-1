@@ -120,8 +120,14 @@ const stringState = ["I", "love", "chocolate", "frogs"];
 const newArray = stringState.join(" ");
 console.log(newArray);
 
-function myFunction () {
-    alert("Hello");
-}
+// function myFunction () {
+//     alert("Hello");
+// }
 
-myFunction ();
+// myFunction ();
+
+function logKey(event) {
+    console.log(`You pressed "${event.key}".`);
+
+}
+textbox.addEventListener("keydown", logKey);
