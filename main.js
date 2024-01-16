@@ -109,36 +109,13 @@ document.getElementById("demo2").innerHTML = ` The winner of the super mega deat
 // section.appendChild(para);
     
 const myText = "I am a string";
-const newString = myText.replace("string", "sausage");
+const newString = myText.replace("string", "sausage")
+
+console.log(myText);
+console.log(newString);
 
 document.getElementById("demo3").innerHTML = newString;
 
-cars = ["Volvo", "BMW", "Pontiac", "Toyota"];
-
-const randomCar = cars[Math.floor(Math.random() * cars.length)];
-
-document.getElementById("demo4").innerHTML = `${randomCar} is the worst car ever made.`
-
-const hello = "Lets get it started"
-
-// button.document.querySelector("button2")
-
-const chocoArray = ["I", "love", "chocolate", "frogs"];
-const madeAString = chocoArray.join(" ");
-document.getElementById("demo5").innerHTML = madeAString;
-console.log(madeAString);
-
-const metal = ["gold", "silver", "nickel"]
-const joinMetal = metal.join(", ");
-console.log(joinMetal);
-
-const originals = [1, 2, 3];
-const doubled = originals.map(item => item * 2);
-console.log(doubled);
-
-const textBox = document.querySelector("#textbox");
-const output = document.querySelector("#output");
-
-textBox.addEventListener("keydown", (event) => {
-    output.textContent = `You pressed "${event.key}".`;
-});
+const stringState = ["I", "love", "chocolate", "frogs"];
+const newArray = stringState.join(" ");
+console.log(newArray);
