@@ -144,3 +144,9 @@ const originals = [1, 2, 3];
 const doubles = originals.map(item => item * 2);
 console.log(doubles);
 
+const textBox = document.querySelector("#schrift");
+const  output1 = document.querySelector("#output1");
+
+schrift.addEventListener("keydown", event => {
+    output1.textContent = `You pressed ${event.key}.`
+});
