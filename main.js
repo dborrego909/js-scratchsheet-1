@@ -132,6 +132,10 @@ console.log(newArray);
 // }
 // textbox.addEventListener("keydown", logKey);
 
-textbox.addEventListener("keydown", function (event) {
+// textbox.addEventListener("keydown", function (event) {
+//     console.log(`You pressed "${event.key}".`)
+// });
+
+textbox.addEventListener("keydown", (event) => {
     console.log(`You pressed "${event.key}".`)
-});
+}); 
