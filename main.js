@@ -139,3 +139,7 @@ console.log(newArray);
 textbox.addEventListener("keydown", (event) => {
     console.log(`You pressed "${event.key}".`)
 }); 
+
+const originals = [1, 2, 3];
+const doubles = originals.map(item => item * 2);
+console.log(doubles);
