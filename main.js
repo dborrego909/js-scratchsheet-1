@@ -150,3 +150,7 @@ const  output1 = document.querySelector("#output1");
 schrift.addEventListener("keydown", event => {
     output1.textContent = `You pressed ${event.key}. Cool huh?`
 });
+
+const myText1 = "The weather is cold";
+const newString1 = myText1.replace("cold", "hot");
+console.log(newString1);
