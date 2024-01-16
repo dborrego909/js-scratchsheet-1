@@ -148,5 +148,5 @@ const textBox = document.querySelector("#schrift");
 const  output1 = document.querySelector("#output1");
 
 schrift.addEventListener("keydown", event => {
-    output1.textContent = `You pressed ${event.key}.`
+    output1.textContent = `You pressed ${event.key}. Cool huh?`
 });
