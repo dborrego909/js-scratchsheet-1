@@ -119,3 +119,9 @@ document.getElementById("demo3").innerHTML = newString;
 const stringState = ["I", "love", "chocolate", "frogs"];
 const newArray = stringState.join(" ");
 console.log(newArray);
+
+function myFunction () {
+    alert("Hello");
+}
+
+myFunction ();
