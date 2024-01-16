@@ -126,8 +126,12 @@ console.log(newArray);
 
 // myFunction ();
 
-function logKey(event) {
-    console.log(`You pressed "${event.key}".`);
+// function logKey(event) {
+//     console.log(`You pressed "${event.key}".`);
 
-}
-textbox.addEventListener("keydown", logKey);
+// }
+// textbox.addEventListener("keydown", logKey);
+
+textbox.addEventListener("keydown", function (event) {
+    console.log(`You pressed "${event.key}".`)
+});
